@@ -26,13 +26,12 @@
 # yarn install
 # yarn start
 
-application: ef_lab {
-  label: "Hello, World!"
-  # file: "exercise1_wo_chatty.js"
-  file: "exercise1_with_chatty.js"
-  # url: "http://localhost:8080/bundle.js"
-}
-
+# application: ef_lab {
+#   label: "Hello, World!"
+#   # file: "exercise1_wo_chatty.js"
+#   file: "exercise1_with_chatty.js"
+#   # url: "http://localhost:8080/bundle.js"
+# }
 
 
 
@@ -42,15 +41,19 @@ application: ef_lab {
 # Steps to serve from your local dev server:
 # 0a) comment out the code block above (so that we're now using the application definition below
 # 0b) make sure your yarn / node from the previous exercise is stopped!
-# 1) make sure your yarn / node from the previous exercise is stopped!
+# 1) Go to some other new folder
+# 2) mkdir exercise2
+# 3) cd exercise 2
+# 4) git clone https://github.com/looker-open-source/extension-template-kitchensink.git
+# 5) cd extension-template-kitchensink
+# 6) yarn install
+# 7) yarn start
 
-
-# application: ef_lab {
-#   label: "Hello, World!"
-#   file: "exercise1_wo_chatty.js"
-#   # file: "exercise1_with_chatty.js"
-#   # url: "http://localhost:8080/bundle.js"
-# }
+application: ef_lab {
+  label: "Ex2) Now Components!"
+  file: "exercise2.js"
+#   url: "http://localhost:8080/bundle.js"
+}
 
 
 
@@ -66,7 +69,6 @@ application: ef_lab {
 # application: ef_lab {
 #   label: "Hello, World!"
 #   file: "exercise1_wo_chatty.js"
-#   # file: "exercise1_with_chatty.js"
 #   # url: "http://localhost:8080/bundle.js"
 # }
 
