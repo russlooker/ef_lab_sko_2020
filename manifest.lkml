@@ -17,7 +17,7 @@
 ########################
 ###   Exercise 1     ###
 ########################
-# Steps to begin
+# Steps to serve from your local dev server:
 # go to a folder you'd like to work with and run:
 # mkdir exercise1
 # cd exercise 1
@@ -32,7 +32,6 @@ application: ef_lab {
   file: "exercise1_with_chatty.js"
   # url: "http://localhost:8080/bundle.js"
 }
-# To Serve live from your development environment:
 
 
 
@@ -40,7 +39,7 @@ application: ef_lab {
 ########################
 ###   Exercise 2     ###
 ########################
-# Steps to begin
+# Steps to serve from your local dev server:
 # 0a) comment out the code block above (so that we're now using the application definition below
 # 0b) make sure your yarn / node from the previous exercise is stopped!
 # 1) make sure your yarn / node from the previous exercise is stopped!
@@ -58,8 +57,10 @@ application: ef_lab {
 ########################
 ###   Exercise 3     ###
 ########################
-# Steps to begin
-# make sure your yarn / node from the previous exercise is stopped!
+# Steps to serve from your local dev server:
+# 0a) comment out the code block above (so that we're now using the application definition below
+# 0b) make sure your yarn / node from the previous exercise is stopped!
+# 1) make sure your yarn / node from the previous exercise is stopped!
 
 
 # application: ef_lab {
@@ -74,8 +75,10 @@ application: ef_lab {
 ########################
 ###   Exercise 4     ###
 ########################
-# Steps to begin
-# make sure your yarn / node from the previous exercise is stopped!
+# Steps to serve from your local dev server:
+# 0a) comment out the code block above (so that we're now using the application definition below
+# 0b) make sure your yarn / node from the previous exercise is stopped!
+# 1) make sure your yarn / node from the previous exercise is stopped!
 
 
 # application: ef_lab {
