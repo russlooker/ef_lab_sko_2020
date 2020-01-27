@@ -1,8 +1,7 @@
-# project_name: "test123"
 
-# # Use local_dependency: To enable referencing of another project
-# # on this instance with include: statements
-#
-# local_dependency: {
-#   project: "name_of_other_project"
-# }
+
+application: ef_lab {
+  label: "Hello, World!"
+  url: "http://localhost:8080/bundle.js"
+  #file: "example_1a.js"
+}
