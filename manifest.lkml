@@ -1,3 +1,5 @@
+#Slideshow:
+#https://docs.google.com/presentation/d/1hXJ3JiFJTlofZcZ3wCqXmARVYd3GKbcBMaQE4VvVFW0/edit?ts=5e2f7980#slide=id.g7ce0553a95_0_286
 ######################################
 ###        Before you Begin        ###
 ######################################
@@ -20,7 +22,7 @@
 # Steps to serve from your local dev server:
 # go to a folder you'd like to work with and run:
 # mkdir exercise1
-# cd exercise 1
+# cd exercise1
 # git clone https://github.com/bryans99/extension-basic.git
 # cd extension-basic
 # yarn install
@@ -43,17 +45,18 @@
 # 0b) make sure your yarn / node from the previous exercise is stopped!
 # 1) Go to some other new folder
 # 2) mkdir exercise2
-# 3) cd exercise 2
+# 3) cd exercise2
 # 4) git clone https://github.com/looker-open-source/extension-template-kitchensink.git
 # 5) cd extension-template-kitchensink
+# 5) code . (if you'd like to edit the files as part of the exercise)
 # 6) yarn install
 # 7) yarn start
 
-application: ef_lab {
-  label: "Ex2) Now Components!"
-  file: "exercise2.js"
-#   url: "http://localhost:8080/bundle.js"
-}
+# application: ef_lab {
+#   label: "Ex2) Now Components!"
+#   file: "exercise2.js"
+# #   url: "http://localhost:8080/bundle.js"
+# }
 
 
 
@@ -63,16 +66,23 @@ application: ef_lab {
 # Steps to serve from your local dev server:
 # 0a) comment out the code block above (so that we're now using the application definition below
 # 0b) make sure your yarn / node from the previous exercise is stopped!
-# 1) make sure your yarn / node from the previous exercise is stopped!
+# 1) Go to some other new folder
+# 2) mkdir exercise3
+# 3) cd exercise3
+# 4) git clone https://github.com/llooker/ef_lab_ex3_sko2020.git
+# 5) cd ef_lab_ex3_sko2020
+# 5) code . (if you'd like to edit the files as part of the exercise)
+# 6) yarn install
+# 7) yarn start
 
+application: ef_lab {
+  label: "Ex3) Lets use some data!"
+#   file: "exercise3.js"
+  url: "http://localhost:8080/bundle.js"
+}
 
-# application: ef_lab {
-#   label: "Hello, World!"
-#   file: "exercise1_wo_chatty.js"
-#   # url: "http://localhost:8080/bundle.js"
-# }
-
-
+# Using this library
+# https://github.com/highcharts/highcharts-react#highcharts-with-typescript
 
 ########################
 ###   Exercise 4     ###
@@ -80,7 +90,6 @@ application: ef_lab {
 # Steps to serve from your local dev server:
 # 0a) comment out the code block above (so that we're now using the application definition below
 # 0b) make sure your yarn / node from the previous exercise is stopped!
-# 1) make sure your yarn / node from the previous exercise is stopped!
 
 
 # application: ef_lab {
