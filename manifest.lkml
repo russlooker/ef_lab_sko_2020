@@ -28,12 +28,12 @@
 # yarn install
 # yarn start
 
-# application: ef_lab {
-#   label: "Hello, World!"
-#   # file: "exercise1_wo_chatty.js"
-#   file: "exercise1_with_chatty.js"
-# #   url: "http://localhost:8080/bundle.js"
-# }
+application: ef_lab {
+  label: "Hello, World!"
+  # file: "exercise1_wo_chatty.js"
+  # file: "exercise1_with_chatty.js"
+  url: "http://localhost:8080/bundle.js"
+}
 
 
 
@@ -75,11 +75,11 @@
 # 6) yarn install
 # 7) yarn start
 
-application: ef_lab {
-  label: "Ex3) Lets use some data!"
-#   file: "exercise3.js"
-  url: "http://localhost:8080/bundle.js"
-}
+# application: ef_lab {
+#   label: "Ex3) Lets use some data!"
+# #   file: "exercise3.js"
+#   url: "http://localhost:8080/bundle.js"
+# }
 
 # Using this library
 # https://github.com/highcharts/highcharts-react#highcharts-with-typescript
