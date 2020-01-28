@@ -32,7 +32,7 @@
 #   label: "Hello, World!"
 #   # file: "exercise1_wo_chatty.js"
 #   file: "exercise1_with_chatty.js"
-#   # url: "http://localhost:8080/bundle.js"
+# #   url: "http://localhost:8080/bundle.js"
 # }
 
 
