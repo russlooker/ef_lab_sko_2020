@@ -83,18 +83,3 @@ application: ef_lab {
 
 # Using this library
 # https://github.com/highcharts/highcharts-react#highcharts-with-typescript
-
-########################
-###   Exercise 4     ###
-########################
-# Steps to serve from your local dev server:
-# 0a) comment out the code block above (so that we're now using the application definition below
-# 0b) make sure your yarn / node from the previous exercise is stopped!
-
-
-# application: ef_lab {
-#   label: "Hello, World!"
-#   file: "exercise1_wo_chatty.js"
-#   # file: "exercise1_with_chatty.js"
-#   # url: "http://localhost:8080/bundle.js"
-# }
